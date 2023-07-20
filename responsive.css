@@ -1,7 +1,30 @@
-@media (max-width: 480px) {}
 
-@media (max-width: 900px) {
-
+@media (min-width: 320px) and (max-width: 767px) {
+    nav > span >img{
+        height: 50px;
+        width: 100px;
+      }
+      nav>.icon-img{
+        width: 10px;
+      }
+    nav > .nav-bar{
+        display: inline-block;
+      }
+    nav > ul > li > a{
+        text-decoration: none;
+        color: black;
+        font-size: 10px;
+      }
+      .btn {
+        background-color: #051a42;
+        border: none;
+        color: white;
+        padding: 5px;
+        font-size: 10px;
+        cursor: pointer;
+        height: auto;
+        width: auto;
+      }
 
     nav {
         position: sticky;
@@ -42,7 +65,7 @@
         display: flex;
         background-color: white;
         align-items: center;
-        width: 60%;
+        width: 70%;
         margin: 0;
         height: 50px;
         margin-left: auto;
@@ -77,14 +100,8 @@
     .container-content {
         display: block;
         gap: 1px;
-        /* grid-template-columns: 1fr 1fr 1fr 1fr; */
-        /* grid-gap: 100px; */
-        /* grid-auto-rows: 500px 60px; */
-        /* width: 100px; */
         height: 600px;
         background-size: cover;
-        /* margin-left: auto;
-        margin-right: auto; */
         margin-top: -230px;
     }
 
@@ -148,7 +165,7 @@
     }
 
     .comment>ul {
-        margin-left: 10%;
+        margin-left: auto;
         margin-right: auto;
     }
 
@@ -200,7 +217,7 @@
     .network {
         display: block;
         align-items: center;
-        margin-left: 0;
+        margin-left: 10%;
         margin-right: 0;
         margin-top: 1600px;
     }
@@ -211,7 +228,7 @@
     }
 
     .img-partner>img {
-        width: 350px;
+        width: 300px;
         padding-top: 20px;
     }
 
@@ -249,5 +266,8 @@
         align-items: center;
         justify-content: center;
         height: 50px;
+        font-size: 10px;
     }
 }
+
+
