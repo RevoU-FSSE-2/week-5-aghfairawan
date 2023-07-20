@@ -11,7 +11,7 @@ This website create with :
 - Using Responsive Design with Mobile First Approach
 - Using Flex Layout
 
-The result [Website](https://aghfairawan.site/)
+The result [Website](http://aghfairawan.site)
 
 # How To Deploy Website
 
